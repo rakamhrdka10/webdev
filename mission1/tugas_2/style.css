@@ -1,0 +1,219 @@
+@font-face {
+    font-family: "serif-family";
+    src: url("font/source-serif-pro.regular.ttf");
+}
+@font-face {
+    font-family: "sans";
+    src: url("font/source-sans-pro.regular.ttf");
+}
+
+
+.container{
+    height: auto;
+    width: 100%;
+}
+
+nav{
+    background-color: #F3F4F6;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.navbar-collapse a{
+    color: #949EB2;
+}
+
+.satu{
+    background-color: #F3F4F6;
+}
+
+.satu h1{
+    font-family: "serif-family";
+    font-weight: 700;
+    font-size: 60px;
+    padding-top: 4rem;
+}
+
+.satu .y{
+    font-family: "sans";
+    font-size: 20px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 2rem;
+}
+
+span{
+    color: #DE3F1C;
+}
+
+.satu .input-group{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    height: 50px;
+}
+
+.satu .input-group button{
+    background-color: #65D777;
+    color: white;
+}
+
+.satu .konten{
+    padding-top: 5rem;
+}
+
+.dua h1{
+    color: #091836;
+    font-family: "serif-family";
+    font-weight: 600;
+    padding-top: 4rem;
+    padding-bottom: 0.5rem;
+}
+
+.dua a {
+    color: #DE3F1C;
+    font-family: "sans";
+}
+
+.dua .foto{
+    padding-top: 4rem;
+    margin-left: 30px;
+    padding-bottom: 4rem;
+
+}
+
+.dua .foto img{
+    border-radius: 50%;
+}
+
+.dua .foto .pict{
+    margin-bottom: 30px;
+}
+
+.dua .pict h5{
+    color: #091836;
+    font-weight: 400;
+    font-family: "sans";
+    font-size: 30px;
+}
+
+.dua .pict p{
+    color: #7782A7;
+    font-size: 15px;
+    font-family: "sans";
+}
+
+.dua .box{
+    background-color: #F3F4F6;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 4rem;
+}
+
+.dua .box h5{
+    color: #38404F;
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.dua .box p{
+    color: #7782A7;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.dua .box button{
+    background-color: #65D777;
+    color: white;
+    font-family: "sans";
+}
+
+.dua .box .input-group{
+    height: 50px;
+    padding-bottom: 4rem;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container p{
+    color: #778298;
+    font-family: 'Sans', sans-serif;
+    font-size: 15px;
+}
+
+footer ul li{
+    display: inline-block;
+}
+
+footer ul a{
+    text-decoration: none;
+    color: #778298;
+    font-family: 'Sans', sans-serif;
+    font-size: 15px;
+}
+
+footer ul a:hover{
+    color: #778298;
+    text-decoration: underline;
+}
+
+footer ul li:not(:last-of-type){
+    margin-right: 30px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding-left: 20px; /* Adjust padding for smaller screens */
+        padding-right: 20px; /* Adjust padding for smaller screens */
+    }
+    .satu h1 {
+        font-size: 26px;
+    }
+    .satu .y {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .satu .input-group {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .dua .box{
+        background-color: #F3F4F6;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 4rem;
+    }
+
+    footer ul a{
+        text-decoration: none;
+        color: #778298;
+        font-family: 'Sans', sans-serif;
+        font-size: 12px;
+    }
+
+    .satu .input-group{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 4rem;
+        height: 50px;
+    }
+
+    
+    
+}
+
+
+

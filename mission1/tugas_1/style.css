@@ -1,0 +1,121 @@
+.container {
+    width: 70%;
+    height: 90vh;
+    margin: 50px auto;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 5px solid #000;
+    display: grid;
+    grid-template-areas: "birutua hitam hitam hitam"
+                        "birutua coklat putih ping"
+                        "birutua coklat putih biru"
+                        "kuning ungu putih biru"
+                        "merah ungu abu abu"
+                        "hijau oren abu abu";
+
+    grid-template-columns: 1fr 1fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+}
+
+.container div:hover {
+    transform: scale(1.1); /* Contoh: Memperbesar grid saat dihover */
+    transition: background-color 0.3s, transform 0.3s; /* Efek transisi animasi */
+    opacity: 0.9;
+    /* transition: transform 0.2s; */
+}
+
+.container div{
+    display: flex;
+    border: 2px solid #000;
+}
+
+.biruTua {
+    grid-area: birutua;
+    background-color: blue;
+}
+
+.kuning {
+    grid-area: kuning;
+    background-color: yellow;
+}
+
+.merah {
+    grid-area: merah;
+    background-color: red;
+}
+
+.hijau {
+    grid-area: hijau;
+    background-color: green;
+}
+
+.hitam {
+    grid-area: hitam;
+    background-color: #000;
+}
+
+.coklat {
+    grid-area: coklat;
+    background-color: brown;
+}
+
+.ungu{
+    grid-area: ungu;
+    background-color: purple;
+}
+
+.orange{
+    grid-area: oren;
+    background-color: orange;
+}
+
+.putih{
+    grid-area: putih;
+    background-color: white;
+}
+
+.abu{
+    grid-area: abu;
+    background-color: grey;
+}
+
+.pink{
+    grid-area: ping;
+    background-color: pink;
+}
+
+.biru{
+    grid-area: biru;
+    background-color: aqua;
+}
+
+.font{
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    font-style: oblique;
+}
+
+
+.tulisputih{
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .font {
+        font-size: 20px; /* Atur ukuran font lebih kecil untuk layar dengan lebar maksimal 768px */
+    }
+}
+
+@media (max-width: 480px) {
+    .font {
+        font-size: 16px; /* Atur ukuran font lebih kecil lagi untuk layar dengan lebar maksimal 480px */
+    }
+}
+
+@media (max-width: 240px) {
+    .font {
+        font-size: 10px; /* Atur ukuran font lebih kecil lagi untuk layar dengan lebar maksimal 480px */
+    }
+}
