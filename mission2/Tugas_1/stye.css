@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "serif-family";
+    src: url("font/source-serif-pro.regular.ttf");
+}
+
+.body{
+    height: auto;
+    width: 100%;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    background: #343f4F;
+}
+
+.container{
+    height: auto;
+    width: 100%;
+}
+
+nav{
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.container .satu{
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .dua{
+    padding-top: 4rem;
+}
+
+.wrapper{
+    height: 50px;
+    /* min-width: 380px; */
+    background: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper span{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.wrapper span.number{
+    font-size: 15px;
+    border-right: 2px solid rgba(0, 0, 0, 0.2);
+    border-left: 2px solid rgba(0, 0, 0, 0.2);
+    pointer-events: none;
+}
+
+.container .satu button{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#cart-content {
+    display: none;
+  }
+  
+  /* Add these styles to your existing CSS */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item-details {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.item-buttons {
+    display: flex;
+    gap: 10px; /* Add some spacing between buttons */
+    padding-left: 700px;
+}
+
+.dua {
+    padding-top: 100px;
+}
+
+.total-price {
+    padding-left:  1000px;
+  }
